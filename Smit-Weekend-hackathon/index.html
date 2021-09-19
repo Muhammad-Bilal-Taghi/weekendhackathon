@@ -1,0 +1,138 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script> -->
+    <!-- <script src="app.js"></script>
+
+
+    <script>
+    var firebaseConfig = {
+    
+        apiKey: "AIzaSyC8RXKZLt0Zh44X43Cj-kVYq3jdJBC7O7Q",
+      authDomain: "smit-sunday-hackathon.firebaseapp.com",
+      projectId: "smit-sunday-hackathon",
+      storageBucket: "smit-sunday-hackathon.appspot.com",
+      messagingSenderId: "1036987358316",
+      appId: "1:1036987358316:web:803eec9a72608635d88c49",
+      measurementId: "G-9VVMTYKC4E"
+      
+    };
+    
+    firebase.initializeApp(firebaseConfig);
+    // const analytics = getAnalytics(app);
+</script>
+    </head>
+<body>
+     
+    <h2>Pop A Baloon Game</h2>
+    
+    
+    <button class="open-button" onclick="openForm()">Open Form</button>
+    
+    <div class="form-popup" id="myForm">
+      <form action="" class="form-container">
+        <h1>SignIn</h1>
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="emails" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="passwords" required>
+    
+        <button type="submit" class="btn" onclick="signin()">Login</button>
+        <a href="signup.html">SigUp</a>
+        <!-- <button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
+        <!-- <div class="bg-light p-5">
+
+            <small>
+                - Or You can Continue with -
+            </small>
+            <div class="input-group my-3">
+                <div class="input-group-prepend" style="margin-left:auto;">
+                    <span class="input-group-text  bg-white" id="basic-addon1"><i
+                            class="fa fa-google"></i></span>
+                </div>
+                <button class="btn bg-danger text-white" type="button" style="margin-right: auto;"
+                    onclick="googleSignin()">Sign in with
+                    Google</button>
+            </div> 
+    </form>
+    </div>
+    
+    
+</body>
+<script src="app.js"></script>
+
+</html>  --> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+     <h1>Pop A Ballon Game</h1>
+    <section>
+        
+        <div class="form-container">
+            
+           
+            <fieldset class="control" > 
+                
+                <div >
+                    <label class="label" for="name">Email Address</label>
+                    <input  type="text" class="login_email des" id="login_email" placeholder="Enter your Email here"  name="u-name" value="" >
+                <!-- </div> -->
+                <!-- <div class="control"> -->
+                    <label class="label" for="psw">Password</label>
+                    <input  type="password" class="login_password des" id="login_password" placeholder="Enter your Password here" name="u-pass" value="" required>
+                <!-- </div> -->
+                <!-- <div class="control"> -->
+                    <input type="button" id="login_btn" class="btn" onclick="login()"  name="" value="Sign In">
+                    <input type="button" id="login_btn" class="btn" onclick="signup()"  name="" value="Sign Up">
+                </div>
+            </fieldset>
+            
+        </div>
+    </section>
+</body>
+<script type="module">
+ const firebaseConfig = {
+    apiKey: "AIzaSyC8RXKZLt0Zh44X43Cj-kVYq3jdJBC7O7Q",
+    authDomain: "smit-sunday-hackathon.firebaseapp.com",
+    projectId: "smit-sunday-hackathon",
+    storageBucket: "smit-sunday-hackathon.appspot.com",
+    messagingSenderId: "1036987358316",
+    appId: "1:1036987358316:web:803eec9a72608635d88c49",
+    measurementId: "G-9VVMTYKC4E"
+  };    
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="app.js"></script>
+</html>
+</body>
+</html>
